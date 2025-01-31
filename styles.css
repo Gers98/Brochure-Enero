@@ -1,0 +1,15 @@
+#brochure-container {
+    display: grid;
+    grid-template-columns: 50% 50%; /* Dos columnas de 50% de ancho cada una */
+    gap: 10px;
+    padding: 20px;
+    justify-items: center; /* Centra los elementos horizontalmente */
+}
+
+#brochure-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita espacios en blanco debajo de las imágenes */
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
